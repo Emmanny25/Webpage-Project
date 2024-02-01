@@ -1,0 +1,35 @@
+h1{
+    text-align: center;
+    color: white;
+}
+/* make background lightblue and create a border of 5px soild light green */
+body{
+    background: lightskyblue;
+    border: 5px solid lightgreen;
+    box-sizing: border-box;
+    height: 100vh;
+}
+/* Just keep the h1 and h2 the same color white */
+h2{
+    color: white;
+    text-align: left;
+}
+/* make the nav bar centeres and horizontal */
+nav{
+    display: flex;
+    justify-content: center;
+    color: white;   
+}
+/* make image smaller preferred 300px and set height to auto so it doesn't look squished, then set image to the right */
+img{
+    width: 300px;
+    height: auto;
+    float: right;
+}
+/* Make sure to have the pargraph lineup to the left */
+P { 
+    color: white;
+    font-size: large;
+    text-align: left;
+}
+
